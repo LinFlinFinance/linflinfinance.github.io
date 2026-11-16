@@ -120118,7 +120118,7 @@ $0(){var s=0,r=A.q(t.H),q=this,p,o,n
 var $async$$0=A.m(function(a,b){if(a===1)return A.n(b,r)
 for(;;)switch(s){case 0:p=A.L("\u041c\u043e\u0439 \u043a\u043b\u044e\u0447 \u0432 LinFlin \u0424\u0438\u043d\u0430\u043d\u0441\u044b",B.f)
 o=A.L("\u041e\u0442\u043a\u0440\u043e\u0439",B.f)
-n=B.c.le("https://nickhadson.github.io/linflin-finance-web","https://","")
+n=B.c.le("https://linflinfinance.github.io","https://","")
 s=2
 return A.f(A.yQ(new A.qx(p+": "+q.b+"\n"+o+" "+n+" \u2192 "+A.L("\u0414\u0440\u0443\u0437\u044c\u044f",B.f)+" \u2192 "+A.L("\u0412\u0432\u0435\u0441\u0442\u0438 \u043a\u043b\u044e\u0447",B.f))),$async$$0)
 case 2:p=q.c
@@ -120691,7 +120691,7 @@ j=A.L(u.x,B.f)
 k=A.lR(e,e,e,e,e,e,e,e,e,k,e,B.f5,e,e,e,e,e,e,e,e)
 B.b.N(l,A.b([a,o.$3(b,j,A.lQ(A.a7(A.L("\u0423\u0434\u0430\u043b\u0438\u0442\u044c",B.f),e,e,e,e,e,e,e),f.gasO(),k))],m))
 l.push(n.$1(A.L("\u041e \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0438",B.f)))
-l.push(A.a7("LinFlin \u0424\u0438\u043d\u0430\u043d\u0441\u044b 0.3.2+8\n"+A.L(u.X,B.f),e,e,e,A.bW(e,e,c.e,e,e,e,e,e,e,e,e,13,e,e,e,e,e,!0,e,e,e,e,e,e,e,e),e,e,e))
+l.push(A.a7("LinFlin \u0424\u0438\u043d\u0430\u043d\u0441\u044b 0.3.4+10\n"+A.L(u.X,B.f),e,e,e,A.bW(e,e,c.e,e,e,e,e,e,e,e,e,13,e,e,e,e,e,!0,e,e,e,e,e,e,e,e),e,e,e))
 return A.cJ(A.b([new A.rZ(a1,B.oX,e),A.dv(A.vD(l,e,B.zN,e,!1),1)],m),B.P,B.B,B.T)}}
 A.aXw.prototype={
 $0(){var s=this.b
@@ -121889,7 +121889,7 @@ d.at=B.hw
 l=d
 p=4
 s=7
-return A.f(l.Qv("get",A.dE("https://nickhadson.github.io/linflin-finance-web/app/version.json?t="+Date.now(),0,null)),$async$oB)
+return A.f(l.Qv("get",A.dE("https://linflinfinance.github.io/app/version.json?t="+Date.now(),0,null)),$async$oB)
 case 7:k=a5
 s=8
 return A.f(k.S().mf(B.zD),$async$oB)
@@ -121914,8 +121914,8 @@ h=c==null?"":c
 a0=J.bB(i,"apk")
 b=a0==null?null:J.bv(a0)
 g=b==null?"app/linflin.apk":b
-m.f=J.b7N(g,"http")?g:"https://nickhadson.github.io/linflin-finance-web/"+A.j(g)
-if(A.bki(h)<=A.bki("0.3.2+8")||m.c==null){n=[1]
+m.f=J.b7N(g,"http")?g:"https://linflinfinance.github.io/"+A.j(g)
+if(A.bki(h)<=A.bki("0.3.4+10")||m.c==null){n=[1]
 s=5
 break}m.e=!0
 a0=m.c
